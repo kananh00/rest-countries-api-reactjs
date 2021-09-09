@@ -1,0 +1,98 @@
+.light{
+  background-color: #F2F2F2;
+}
+.dark{
+  background-color: #202C36;
+  color: white;
+  .detailed_page_info{
+    .border_country{
+      background-color: #2B3844 !important;
+      color: white;
+    }
+  }
+  .back_btn{
+    background-color: #2B3844 !important;
+    color: white;
+    .back_arrow{
+      filter: brightness(0) invert(1);
+    }
+  }
+}
+.single_country {
+    padding: 40px 28px 40px 28px;
+    min-height: 95vh;
+    .back_btn {
+      display: flex;
+      align-items: center;
+      background-color: #ffffff;
+      box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.293139);
+      border-radius: 2px;
+      padding: 6px 24px;
+      border: none;
+      cursor: pointer;
+      outline: none;
+      margin-top: 25px;
+      .back_arrow {
+        margin-right: 8px;
+      }
+    }
+    .detailed_page_flag {
+      margin-top: 63px;
+      width: 100%;
+      box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.15);
+      border-radius: 5.71755px;
+    }
+    .detailed_page_name {
+      margin: 40px 0 20px 0;
+      font-size: 22px;
+      font-weight: 800;
+    }
+    .detailed_page_info {
+      margin-bottom: 8px;
+      font-size: 14px;
+      line-height: 16px;
+      font-weight: 300;
+      line-height: 32px;
+      .detailed_page_title {
+        font-weight: 600;
+      }
+      .border_country {
+        background-color: #ffffff;
+        box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.293139);
+        border-radius: 2px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border: none;
+        text-align: center;
+        font-size: 12px;
+      }
+    }
+    .single_country_second_info {
+      margin: 25px 0;
+    }
+    .borders {
+      display: block;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .single_country {
+      padding: 40px 60px 60px 60px;
+      .detailed_page_flag {
+        margin-top: 0;
+        width: 85%;
+      }
+      .back_btn{
+          margin-bottom: 40px;
+      }
+      .detailed_page_info{
+          display: flex;
+          .border_country {
+              padding: 0;
+            }
+      }
+    }
+  }
+  

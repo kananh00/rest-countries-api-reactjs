@@ -1,0 +1,55 @@
+@import "~bootstrap/dist/css/bootstrap-grid.min.css";
+@import "~antd/dist/antd.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap');
+
+@font-face {
+  font-family: Rubik;
+  src: url("/assets/fonts/Rubik/Rubik-Light.woff");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url("/assets/fonts/Rubik/Rubik-Regular.woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url("/assets/fonts/Rubik/Rubik-Medium.woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url("/assets/fonts/Rubik/Rubik-Bold.woff");
+  font-weight: 700;
+}
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}

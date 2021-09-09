@@ -1,0 +1,38 @@
+.light-card{
+    background-color: white;
+    color: black;
+}
+.dark-card{
+    background-color: #2B3844;
+    color: white;
+}
+.country_card {
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.0294384);
+    border-radius: 5px;
+    margin-bottom: 40px;
+    .flag {
+        width: 100%;
+        min-height: 160px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .country_desc{
+        margin-left: 24px;
+        padding-bottom: 46px;
+    }
+    .country_name{
+        margin: 20px 0;
+        font-size: 18px;
+        font-weight: 800;
+    }
+    .country_info{
+        margin-bottom: 8px;
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 300;
+        .api_title{
+            font-weight: 600;
+        }
+    }
+    
+}
